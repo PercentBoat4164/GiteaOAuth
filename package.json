@@ -1,0 +1,18 @@
+{
+  "name": "gitea-auth-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "OAuthLib/OAuthRoutes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "node-fetch": "^3.3.1"
+  }
+}

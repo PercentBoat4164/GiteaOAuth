@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Locked Resource</title>
+        <style>
+            body {
+                width: max-content;
+                margin: 10px auto;
+                font-family: Tahoma, Verdana, Arial, sans-serif;
+            }
+
+            button {
+                border: 1px solid black;
+                border-radius: 10px;
+                font-size: 2em;
+                background-color: white;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Seems like you are trying to <br>access a locked resource.</h1>
+        <br>
+        <button type="submit" onclick="window.location.href = '/gitea_oauth'">
+            Login with Gitea
+        </button>
+    </body>
+</html>
